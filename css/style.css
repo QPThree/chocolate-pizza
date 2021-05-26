@@ -1,5 +1,5 @@
 header{
-  padding:25px 200px 0px 200px;
+  padding:35px 200px 0px 200px;
 }
 
 nav{
@@ -9,18 +9,39 @@ nav{
 
 li{
   display: inline;
+  
 }
+
+li img{
+  margin-top:15px;
+}
+
+h1{
+  font-size: 45px;
+  font-family: 'Yellowtail', cursive;
+}
+
+header p{
+  font-size:10px;
+  font-family: 'KoHo', sans-serif;
+}
+
 #email{
   margin-left:10px;
 }
+
 .logos{
   float:left;
 }
+
 .logos img,
 .logos div{
   display: inline-block;
 }
 
+.logos-text{
+  padding-left: 5px;
+}
 
 hr{
   margin-top:80px;
