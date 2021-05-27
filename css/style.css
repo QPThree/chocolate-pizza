@@ -179,9 +179,23 @@ footer p{
   color: #909090;
   font-size: 15px;
 }
-footer hr{
-  /* border: 1px solid gray;
-  color: gray;
-  height: 1px;
-  background-image: none; */
+
+
+input[type="checkbox"]{
+  appearance: none;
+  border: solid 1px gray;
+  border-radius: 25%;
+  height: 10px;
+  width: 10px;
+
 }
+
+input[type="checkbox"]:checked{
+  /* border: solid 5px blue; */
+  content: '\2713';
+}
+
+/* input[type="checkbox"]:checked{
+  background-color: red;
+
+} */
